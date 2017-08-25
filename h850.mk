@@ -18,7 +18,7 @@
 LOCAL_PATH := device/lge/h850
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/lge/h850/h850-vendor.mk))
+$(call inherit-product, vendor/lge/h850/h850-vendor.mk)
 
 # common g5
 $(call inherit-product, device/lge/g5-common/g5.mk)
